@@ -1,0 +1,17 @@
+# Cypress Tests for Demoblaze Signup
+
+## Project Setup
+- Install Node.js and npm.
+- Clone this repository and run `npm install` to install dependencies.
+
+## Running the Tests
+- Open Cypress with `npx cypress open` to run tests interactively.
+- Use `npx cypress run` for headless test execution.
+
+## Framework Structure
+- **Integration Tests**: Located in `cypress/integration/`
+- **Page Objects**: Located in `cypress/pageObjects/` to encapsulate functionality and selectors.
+
+## Notes
+- Tests use both CSS and Xpath selectors.
+- Ensure dependencies like `cypress-xpath` are installed for Xpath support.
